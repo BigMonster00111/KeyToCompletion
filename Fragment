@@ -1,0 +1,22 @@
+activity main.xml
+C
+}
+fragment fragment1.xml
+firstFragmentBtn.setOnClickListener(new
+});
+@Override
+public void onClick(View v) {
+colors.xml
+fragmentl java X
+View.OnClickListener() {
+replaceFragment(new fragment1());
+@Override
+public void onClick(View v) {
+secondFragment@tn.setOnClickListener(new View.OnClickListener() {
+replaceFragment(new fragment2());
+fragment fragment2.xml
+private void replaceFragment (Fragment fragment) {
+FragmentManager fragmentManager = getSupportFragmentManager();
+FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
+fragmentTransaction.replace(R.id.frome Layout, fragment);
+fragmentTransaction.commit();
